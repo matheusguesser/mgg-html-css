@@ -1,0 +1,14 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+h1 {
+    color: darkgreen;
+}
+h2 {
+    color: darkolivegreen;
+}
+p {
+    text-align: justify;
+}
