@@ -24,13 +24,25 @@
         a:active {
             color: aqua;
         }
+        .especial::before {
+            content: '--> ';
+            text-decoration: none;
+            font-weight: normal;
+            color: grey;
+        }
+        .especial::after {
+            content: ' <--';
+            text-decoration: none;
+            font-weight: normal;
+            color: grey;
+        }
     </style>
 </head>
 <body>
     <h1>Personalizando Links</h1>
     <ul>
         <li><a href="https://www.linkedin.com/in/matheusguesser/">LinkedIn</a></li>
-        <li><a href="https://www.instagram.com/matheus.guesser/">Instagram</a></li>
+        <li><a href="https://www.instagram.com/matheus.guesser/" class="especial">Instagram</a></li>
        <li><a href="https://github.com/matheusguesser">GitHub</a></li>
     </ul>
 </body>
