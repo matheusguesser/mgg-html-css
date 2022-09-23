@@ -31,3 +31,7 @@ h2 {
 .avancado {
     color: rgb(28, 146, 107);
 }
+
+.destaque {
+    background-color: yellowgreen;
+}
