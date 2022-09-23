@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/*Em HTML id = # em CSS*/
 body {
     background-color: rgb(21, 179, 126);
     text-align: justify;
@@ -7,7 +7,13 @@ body {
 
 h1 {
     color: rgb(0, 100, 95);
+    text-align: left;
+}
+
+h1#principal {
     text-align: center;
+    background-color: rgb(0, 100, 95);
+    color: rgb(240, 248, 255);
 }
 
 h2 {
