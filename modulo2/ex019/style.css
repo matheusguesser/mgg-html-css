@@ -1,5 +1,6 @@
 @charset "utf-8";
-/*Em HTML id = # em CSS*/
+/*Em HTML id = # em CSS (um elemento por página)*/
+/*em HTML class = . em CSS (podem vários elementos)*/
 body {
     background-color: rgb(21, 179, 126);
     text-align: justify;
